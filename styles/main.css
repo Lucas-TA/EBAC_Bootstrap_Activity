@@ -1,0 +1,34 @@
+.banner {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.banner > .container {
+width: 100vw;
+}
+.carousel-item img {
+height: 500px; 
+object-fit: 100% 100%;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+}
+.footer {
+    padding: 1em 0;
+    background-color: black;
+    color: #fff;
+}
+@media screen and (max-width:756px) {
+    .card img {
+        width: 100%;
+        height: 300px;
+    }
+    .banner {
+        height: 220px;
+    }
+    .carousel-item img {
+        height: 220px;
+        object-fit: cover;
+    }
+}
